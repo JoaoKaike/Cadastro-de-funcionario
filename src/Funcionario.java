@@ -33,9 +33,8 @@ public class Funcionario {
    public void setSalario(double salario) {
       this.salario = salario;
    }
-
-   public void reajuste(){
-       double novoSalario = salario + (salario * 0.1);
+   public double calcularReajuste(){
+       return salario + (salario * 0.1);
    }
 
 }
